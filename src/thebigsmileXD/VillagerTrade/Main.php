@@ -53,7 +53,7 @@ class Main extends PluginBase implements Listener{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getServer()->getLogger()->info(TextFormat::GREEN . "Enabling " . $this->getDescription()->getFullName() . " by " . $this->getDescription()->getAuthors()[0]);
 		$this->getServer()->getLogger()->info(TextFormat::AQUA . "o Thanks for using my VillagerTrade plugin! Thats so awesome!");
-		$this->getServer()->getLogger()->info(TextFormat::AQUA . "o This is my second plugin, please leave a like! Please report bugs on the threat in the PocketMine Forum.");
+		$this->getServer()->getLogger()->info(TextFormat::AQUA . "o This is my second plugin, please leave a like! Please report bugs on the thread in the PocketMine Forum.");
 		
 		if(!$this->getConfig()->exists("messages")){
 			$this->getConfig()->set("messages");
